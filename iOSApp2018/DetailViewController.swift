@@ -46,6 +46,7 @@ class DetailViewController: UIViewController {
         detailImageView.image = (UIImage(named: detailImageUri)?.circle?.imageResize(sizeChange: CGSize(width: imageDimension, height: imageDimension)))!
         detailNameLabel.text = detailName
         detailBylineLabel.text = detailByline
+        detailBylineLabel.textAlignment = .center
         
         let paragraphStyle = NSMutableParagraphStyle()
         paragraphStyle.lineSpacing = 10
@@ -55,7 +56,7 @@ class DetailViewController: UIViewController {
         
         detailCopyLabel.attributedText = attributedString
         detailCopyLabel.frame.size.width = screenSize.width - (sideMargin * 2)
-        detailCopyLabel.textAlignment = .center
+        detailCopyLabel.textAlignment = .left
         detailCopyLabel.sizeToFit()
     }
     
