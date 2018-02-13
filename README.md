@@ -1,5 +1,5 @@
-# TEDxBerkeley 2017
-*iOS application for the April 15, 2017 event*
+# TEDxBerkeley 2018
+*iOS application for the February 17, 2018 event*
 
 created by [Alvin Wan](http://alvinwan.com)
 
@@ -9,12 +9,14 @@ The app features five views and functions:
 - speakers
 - performers
 - team
+- program
 
 See past event applications
+- [2017](https://github.com/TEDxBerkeley/iOSApp2017)
 - [2016](https://github.com/TEDxBerkeley/iOSApp2016)
 - [2015](https://github.com/alvinwan/TEDxBerkeley)
 
-Android user? See the [2017 TEDxBerkeley App made for Android](https://github.com/TEDxBerkeley/androidApp2017).
+Android user? See the [2018 TEDxBerkeley App made for Android](https://github.com/TEDxBerkeley/androidApp2018).
 
 # Screenshots
 
